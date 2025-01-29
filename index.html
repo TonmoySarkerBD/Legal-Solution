@@ -23,39 +23,39 @@
     </script>
 
     <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <!-- Poppins and EB Garamond fonts from Google fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-     <link
-       href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins&display=swap"
-       rel="stylesheet"
-     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Poppins and EB Garamond fonts from Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins&display=swap"
+        rel="stylesheet" />
 
-     <!-- Custom CSS -->
-      <style>
+    <!-- Custom CSS -->
+    <style>
         .font-EB-Garamond {
-        font-family: "EB Garamond", serif;
-      }
+            font-family: "EB Garamond", serif;
+        }
 
-      .font-Poppins {
-        font-family: "Poppins", sans-serif;
-      }
-      </style>
+        .font-Poppins {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
 
 
 </head>
 
 <body class="font-Poppins">
     <!-- Header Section -->
-    <header class="mx-20 my-2">
+    <header class="mx-20 my-4">
         <!-- Nav bar Section -->
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 px-0 mb-10">
             <div class="navbar-start">
                 <img src="./images/logo2.png" alt="Legal Solution Logo" class="">
 
             </div>
-            <div class="navbar-center  hidden lg:flex">
+            <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li><a>Services <i class="fa-solid fa-chevron-right"></i></a></li>
@@ -65,9 +65,38 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn bg-legal">Free Consultation</a>
+                <a
+                    class="btn bg-legal text-white hover:text-black hover:bg-legal lg: border-none outline-none h-16 rounded-md ml-3 text-lg">Free
+                    Consultation</a>
             </div>
         </div>
+
+        <!-- Hero Section  -->
+
+        <div class="hero min-h-full rounded-2xl" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay space-y-60 bg-opacity-30 rounded-2xl"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-screen-lg  flex-col justify-center items-center ">
+                    <h1 class="mb-5 text-5xl font-EB-Garamond font-bold">We Provide Effective <br> Legal Solutions</h1>
+                    <p class="mb-5">
+                        There are many variations of passages of Lorem Ipsum available, but the majority <br> have
+                        suffered alteration in some form, by injected humour.
+                    </p>
+                    <form action="" class="flex flex-col md:flex-row gap-2 md:gap-0 items-center justify-center">
+                        <input type="text" name="text"
+                            class="lg:w-3/4 border-none outline-none h-16 pl-5 rounded-md text-black" id="text"
+                            placeholder="Search your services" />
+                        <button type="submit"
+                            class="btn bg-legal text-white hover:text-black hover:bg-legal lg:w-36 border-none outline-none h-16 rounded-md ml-3 text-lg">
+                            Search
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
     </header>
 
     <!-- Main Section  -->
